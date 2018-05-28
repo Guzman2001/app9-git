@@ -32,11 +32,11 @@
   
   
   <!--Plugin para geolozalizar -->
-  <plugin name="cordova-plugin-geolocation" spec"2.4.3" />
+  <plugin name="cordova-plugin-geolocation" spec"2.4.3"/>
    
    
     <!--Colocar icono app --> 
 	
-	<icon src="res/android/md.png" />
+	<icon src="res/android/md.png"/>
 	
 	</widget>
