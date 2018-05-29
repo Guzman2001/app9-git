@@ -7,7 +7,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDevideReady(){
 	
-$('#position').on('click',function (){
+$('#posicion').on('click',function (){
 	getPosition ();
     });
 	
@@ -23,7 +23,7 @@ $('#watch').on('click',function (){
 		maximumAge: 3600000
 	   }
 	   
-	var watchID = navigator.geolocation.getCorrentPosition(onSuccess,onError,options);
+	var watchID = navigator.geolocation.getCurrentPosition(onSuccess,onError,options);
 	function onSucces(position){
 		
 		alert('Latitude:'    + position.coords.latitude     +'\n'+
