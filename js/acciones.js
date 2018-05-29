@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function(e) {
+$(document).ready(function(e){
 document.addEventListener("deviceready", onDeviceReady, false);
 
 });
@@ -23,7 +23,7 @@ $('#watch').on('click',function (){
 		maximumAge: 3600000
 	   }
 	   
-	var watchID = navigator.geolocation.getCorruentPosition(onSuccess,onError, options);
+	var watchID = navigator.geolocation.getCorrentPosition(onSuccess,onError,options);
 	function onSucces(position){
 		
 		alert('Latitude:'    + position.coords.latitude     +'\n'+
